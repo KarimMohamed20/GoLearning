@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8295d55c-53f5-480f-a1f9-f97cb64f06f1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Types.go" beforeDir="false" afterPath="$PROJECT_DIR$/Types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pointers.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Types.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Types.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Types.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="255">
+              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pointers.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Pointers.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -62,6 +70,7 @@
         <option value="$PROJECT_DIR$/HelloWorld.go" />
         <option value="$PROJECT_DIR$/Syntax.go" />
         <option value="$PROJECT_DIR$/Types.go" />
+        <option value="$PROJECT_DIR$/Pointers.go" />
       </list>
     </option>
   </component>
@@ -132,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Types.go">
+  <component name="RunManager" selected="Go Build.go build Pointers.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -147,6 +156,14 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/GoLearn.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build Pointers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Pointers.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build Syntax.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -178,9 +195,11 @@
       <item itemvalue="Go Build.go build GoLearn.go" />
       <item itemvalue="Go Build.go build Syntax.go" />
       <item itemvalue="Go Build.go build Types.go" />
+      <item itemvalue="Go Build.go build Pointers.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build Pointers.go" />
         <item itemvalue="Go Build.go build Types.go" />
         <item itemvalue="Go Build.go build Syntax.go" />
         <item itemvalue="Go Build.go build GoLearn.go" />
@@ -188,7 +207,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-1" width="1368" height="749" extended-state="6" />
+    <frame x="-1" y="-1" width="1368" height="749" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25454545" />
@@ -197,9 +216,9 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.32843137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49924242" visible="true" weight="0.33006537" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924242" weight="0.33006537" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -264,8 +283,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pointers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
