@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8295d55c-53f5-480f-a1f9-f97cb64f06f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/if and else and else if.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goWeb/WebApp.go" beforeDir="false" afterPath="$PROJECT_DIR$/goWeb/WebApp.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loop.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loop.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/loop.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OOP.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OOP.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -96,6 +103,7 @@
         <option value="$PROJECT_DIR$/goWeb/WebApp.go" />
         <option value="$PROJECT_DIR$/if and else and else if.go" />
         <option value="$PROJECT_DIR$/loop.go" />
+        <option value="$PROJECT_DIR$/OOP.go" />
       </list>
     </option>
   </component>
@@ -171,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build if and else and else if.go">
+  <component name="RunManager" selected="Go Build.go build OOP.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -180,12 +188,12 @@
       <filePath value="$PROJECT_DIR$/" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build GoLearn.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build OOP.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/GoLearn.go" />
+      <filePath value="$PROJECT_DIR$/OOP.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build Pointers.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -194,14 +202,6 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/Pointers.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
-    <configuration name="go build Syntax.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/Syntax.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build Types.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -220,6 +220,14 @@
       <filePath value="$PROJECT_DIR$/if and else and else if.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build loop.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/loop.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -230,19 +238,19 @@
       <filePath value="$PROJECT_DIR$/" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build GoLearn.go" />
-      <item itemvalue="Go Build.go build Syntax.go" />
       <item itemvalue="Go Build.go build Types.go" />
       <item itemvalue="Go Build.go build Pointers.go" />
       <item itemvalue="Go Build.go build if and else and else if.go" />
+      <item itemvalue="Go Build.go build loop.go" />
+      <item itemvalue="Go Build.go build OOP.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build OOP.go" />
+        <item itemvalue="Go Build.go build loop.go" />
         <item itemvalue="Go Build.go build if and else and else if.go" />
         <item itemvalue="Go Build.go build Pointers.go" />
         <item itemvalue="Go Build.go build Types.go" />
-        <item itemvalue="Go Build.go build Syntax.go" />
-        <item itemvalue="Go Build.go build GoLearn.go" />
       </list>
     </recent_temporary>
   </component>
@@ -357,8 +365,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/loop.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        <state relative-caret-position="144">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOP.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
