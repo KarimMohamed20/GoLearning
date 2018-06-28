@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8295d55c-53f5-480f-a1f9-f97cb64f06f1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/goWeb/WebApp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/if and else and else if.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/goWeb/WebApp.go" beforeDir="false" afterPath="$PROJECT_DIR$/goWeb/WebApp.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,14 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebApp.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goWeb/WebApp.go">
+      <file leaf-file-name="if and else and else if.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/if and else and else if.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="e#14#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loop.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/loop.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -86,6 +94,8 @@
         <option value="$PROJECT_DIR$/Pointers.go" />
         <option value="$PROJECT_DIR$/WebApp.go" />
         <option value="$PROJECT_DIR$/goWeb/WebApp.go" />
+        <option value="$PROJECT_DIR$/if and else and else if.go" />
+        <option value="$PROJECT_DIR$/loop.go" />
       </list>
     </option>
   </component>
@@ -161,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build Pointers.go">
+  <component name="RunManager" selected="Go Build.go build if and else and else if.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -202,6 +212,14 @@
       <filePath value="$PROJECT_DIR$/Types.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build if and else and else if.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/if and else and else if.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -216,9 +234,11 @@
       <item itemvalue="Go Build.go build Syntax.go" />
       <item itemvalue="Go Build.go build Types.go" />
       <item itemvalue="Go Build.go build Pointers.go" />
+      <item itemvalue="Go Build.go build if and else and else if.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build if and else and else if.go" />
         <item itemvalue="Go Build.go build Pointers.go" />
         <item itemvalue="Go Build.go build Types.go" />
         <item itemvalue="Go Build.go build Syntax.go" />
@@ -236,9 +256,9 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924242" visible="true" weight="0.32843137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49924242" visible="true" weight="0.33006537" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49924242" weight="0.33006537" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -311,6 +331,16 @@
     <entry file="file://$PROJECT_DIR$/WebApp.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/goWeb/WebApp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-142">
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pointers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -318,13 +348,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goWeb/WebApp.go">
+    <entry file="file://$PROJECT_DIR$/if and else and else if.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="10" column="71" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loop.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>

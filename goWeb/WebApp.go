@@ -1,11 +1,9 @@
 package main
-
 import (
 	"net/http"
 	"fmt"
 )
 func handlerFunc(w http.ResponseWriter, r * http.Request)  {
-
 	fmt.Fprint(w, "<html>" +
 		"<head>" +
 		"<style>" +
@@ -29,9 +27,7 @@ func handlerFunc(w http.ResponseWriter, r * http.Request)  {
 		"</script>" +
 		"</body>" +
 		"</html> ")
-
 }
-
 func main()  {
 	http.HandleFunc("/", handlerFunc)
 	http.ListenAndServe(":3000",nil)
